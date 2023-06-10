@@ -1,5 +1,5 @@
 let person = {
-    name: 'Joseph',
+    'first name': 'Joseph',
     age: 50,
     hobbies: ['Music', 'Coding'],
     greet: function() {
@@ -13,5 +13,5 @@ delete person.age;
 // person.age = null
 person.isAdmin = true;
 
-console.log(person)
+console.log(person['first name'])
 
