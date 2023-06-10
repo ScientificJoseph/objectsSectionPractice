@@ -6,3 +6,4 @@ const person = {
         alert('Hey you!')
     }
 };
+
