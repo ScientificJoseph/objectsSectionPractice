@@ -8,9 +8,9 @@ let person = {
 };
 
 // person.age = 51;
-// delete person.age;
+delete person.age;
 // person.age = undefined;
-person.age = null
+// person.age = null
 person.isAdmin = true;
 
 console.log(person)
